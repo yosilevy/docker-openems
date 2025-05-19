@@ -18,3 +18,4 @@ USER root
 EXPOSE 8075-8082
 EXPOSE 5432
 ENTRYPOINT ["./openems-backend.sh"]
+

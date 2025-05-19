@@ -2,3 +2,4 @@
 data "aws_secretsmanager_secret_version" "secrets" {
   secret_id = var.secrets_manager_secret_name
 }
+

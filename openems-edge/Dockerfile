@@ -10,3 +10,4 @@ RUN mkdir /etc/openems.d
 
 # Set the Java options and start command
 CMD ["java", "-Dfelix.cm.dir=/etc/openems.d/", "-jar", "/usr/lib/openems/openems.jar"]
+
